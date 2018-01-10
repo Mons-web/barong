@@ -25,3 +25,6 @@ group :test do
   gem 'selenium-webdriver',  '~> 3.8'
   gem 'chromedriver-helper', '~> 1.1'
 end
+
+gem 'jquery-rails'
+gem 'bootstrap', '~> 4.0.0.beta3'
