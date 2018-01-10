@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Barong</title>
+  <%= csrf_meta_tags %>
+
+  <%= stylesheet_link_tag    'web', media: 'all' %>
+  <%= javascript_include_tag 'web' %>
+</head>
+<body class="devise">
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+
+      <div class="col-xs-12 col-sm-10 col-md-6 col-lg-4">
+        <div class="main-logo">
+          <%= link_to image_tag("logo-white.png"), index_path %>
+        </div>
+      </div>
+
+    </div>
+
+    <span class="notice"><%= notice %></span>
+    <span class="alert"><%= alert %></span>
+
+    <%= yield %>
+
+  </div>
+
+</body>
+</html>
